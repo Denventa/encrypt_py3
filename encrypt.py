@@ -24,7 +24,7 @@ class __enc__:
 			file = input('\n + masukan file: ')
 			jum = int(input(' ? berapa lapis: '));print('')
 			if ( jum < 101):
-				out = file.replace('.py', '_.py')
+				out = file.replace('.py', '.py')
 				xs = open(file).read().encode('utf-8')
 				xz = compile(xs, comviles, 'exec')
 				cum = repr(marshal.dumps(xz))
