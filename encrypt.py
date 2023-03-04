@@ -1,22 +1,4 @@
-Skip to content
-Mark-Zuck
-/
-encrypt_py3
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Beta Try the new code view
-encrypt_py3/encrypt.py
-@Mark-Zuck
-Mark-Zuck Update encrypt.py
- 1 contributor
-48 lines (43 sloc)  26.7 KB
-#     *copyright: (C) © 2022 ~ Romi Afrizal
+#     *copyright: (C) © 2023 ~ Afriliyan Ferly Shishigami X
 import os,sys,time,marshal,rich
 from random import randint
 from rich.panel import Panel
